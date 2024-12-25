@@ -1,0 +1,37 @@
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# 编辑目录和文件
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+*.log*
+.nitro
+.cache
+.mist
+.output
+
+types/components.d.ts
