@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "name": "app",
+      "path": "app"
+    },
+    {
+      "name": "@cosing/lint-configs",
+      "path": "online-common/internal/lint-configs"
+    },
+    {
+      "name": "@cosing/node-utils",
+      "path": "online-common/internal/node-utils"
+    },
+    {
+      "name": "@cosing/tsconfig",
+      "path": "online-common/internal/tsconfig"
+    },
+    {
+      "name": "@cosing/vite-config",
+      "path": "online-common/internal/vite-config"
+    },
+    {
+      "name": "full",
+      "path": "."
+    }
+  ]
+}
