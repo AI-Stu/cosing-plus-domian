@@ -1,5 +1,5 @@
 packages:
-  - app
+  - cosing-plus
   - online-common/internal/*
   - online-common/internal/lint-configs/*
 catalog:

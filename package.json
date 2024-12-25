@@ -1,6 +1,5 @@
 {
 	"dependencies": {
-		"crypto-js": "^4.2.0",
-		"jsencrypt": "^3.3.2"
+		 
 	}
 }
