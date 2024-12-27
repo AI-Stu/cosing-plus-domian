@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "name": "app",
-      "path": "app"
+      "name": "cosing-plus",
+      "path": "cosing-plus"
     },
     {
       "name": "@cosing/lint-configs",
