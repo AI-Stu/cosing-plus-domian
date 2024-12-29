@@ -24,5 +24,10 @@
       "name": "full",
       "path": "."
     }
-  ]
+  ],
+  "settings": {
+    "eslint.codeAction.showDocumentation": {
+      "enable": false
+    }
+  }
 }
