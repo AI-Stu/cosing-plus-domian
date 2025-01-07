@@ -25,6 +25,7 @@ catalog:
   '@vue/test-utils': ^2.4.6
   '@v-c/utils': ^0.0.26
   '@vueuse/core': ^10.11.1
+  await-to-js: ^3.0.0
   ant-design-vue: ^4.2.6
   axios: ^1.7.7
   antdv-component-resolver: ^1.0.7
