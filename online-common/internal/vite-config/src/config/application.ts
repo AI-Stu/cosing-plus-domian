@@ -24,8 +24,8 @@ function defineApplicationConfig(userConfigPromise?: DefineApplicationOptions) {
     const root = process.cwd();
     const isBuild = command === 'build';
     const env = loadEnv(mode, root);
-
-    const plugins = await loadApplicationPlugins({
+    
+    const plugins = await loadApplicationPlugins(mergeConfig({
       components: true,
       compress: true,
       compressTypes: ['gzip'],
@@ -45,7 +45,6 @@ function defineApplicationConfig(userConfigPromise?: DefineApplicationOptions) {
       buildInfo: true,
       buildInfoOptions: {
         configureServerOptions: {
-          '接口文档地址': 'http://150.158.76.216:8085/doc.html#/home',
           '风格配置': './src/config/default-setting.ts'
         },
         buildStartOptions: {
@@ -55,9 +54,8 @@ function defineApplicationConfig(userConfigPromise?: DefineApplicationOptions) {
       pwa: true,
       pwaOptions: getDefaultPwaOptions(appTitle, isBuild),
       autoImport: true,
-      ...envConfig,
-      ...application
-    });
+      ...envConfig
+    }, application));
 
     const { injectGlobalScss = true } = application;
 
