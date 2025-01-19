@@ -19,6 +19,7 @@ catalog:
   '@types/lodash': ^4.17.13
   '@types/lodash-es': ^4.17.12
   '@types/node': ^20.17.6
+  '@types/spark-md5': ^3.0.5
   '@types/treeify': ^1.0.3
   '@vitejs/plugin-vue': ^5.2.0
   '@vitejs/plugin-vue-jsx': ^4.1.0
@@ -58,6 +59,7 @@ catalog:
   pinia: ^2.2.6
   pkg-types: ^1.2.1
   rollup-plugin-visualizer: ^5.12.0
+  spark-md5: ^3.0.2
   treeify: ^1.1.0
   ts-node: ^10.9.2
   typescript: ~5.5.4
