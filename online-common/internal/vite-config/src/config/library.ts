@@ -20,12 +20,12 @@ function defineLibraryConfig(userConfigPromise?: DefineLibraryOptions) {
     const { command, mode } = config;
     const { library = {}, vite = {} } = options || {};
     const root = process.cwd();
-    const isBuild = command === 'build';
+    const build = command === 'build';
 
     const plugins = await loadLibraryPlugins({
       dts: false,
-      isInjectMetadata: true,
-      isBuild,
+      injectMetadata: true,
+      build,
       mode,
       ...library
     });
