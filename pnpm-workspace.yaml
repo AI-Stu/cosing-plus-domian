@@ -2,6 +2,7 @@ packages:
   - cosing-plus
   - online-common/internal/*
   - online-common/internal/lint-configs/*
+  - map-common/*
 catalog:
   '@ant-design/icons-vue': ^7.0.1
   '@antv/g2plot': ^2.4.32

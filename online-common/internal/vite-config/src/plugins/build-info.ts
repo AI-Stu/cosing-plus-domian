@@ -16,10 +16,10 @@ function sum(arr: Stats[]): number {
  */
 function formatBytes(fileSize: number, fixed?: number): string {
   if (fileSize === 0)
-    return '0 Bytes';
+    return '0 B';
   const c = 1024;
   const d = fixed || 2;
-  const e = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+  const e = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
   const f = Math.floor(Math.log(fileSize) / Math.log(c));
   return `${Number.parseFloat((fileSize / c ** f).toFixed(d))} ${e[f]}`;
 }

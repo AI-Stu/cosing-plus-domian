@@ -77,8 +77,8 @@ async function loadCommonPlugins(
     {
       condition: autoImport,
       plugins: () => [viteAutoImportPlugin({
+        imports: ['vue'],
         dts: 'types/auto-imports.d.ts',
-        imports: []
       })]
     },
     // 【仅开发环境】 vue调试工具
@@ -242,7 +242,9 @@ async function loadApplicationPlugins(
     {
       condition: unocss,
       plugins: async () => [
-        viteUnocssPlugin()
+        viteUnocssPlugin({
+          configFile: 'unocss.config.ts'
+        })
       ]
     }
   ]);
