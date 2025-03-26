@@ -61,6 +61,7 @@ catalog:
   pkg-types: ^1.2.1
   rollup-plugin-visualizer: ^5.12.0
   spark-md5: ^3.0.2
+  "tcplayer.js": ^5.3.0-beta.1
   treeify: ^1.1.0
   ts-node: ^10.9.2
   typescript: ~5.5.4
