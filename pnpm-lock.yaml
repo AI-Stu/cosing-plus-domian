@@ -271,9 +271,6 @@ importers:
       '@turf/turf':
         specifier: 'catalog:'
         version: 7.2.0
-      '@types/spark-md5':
-        specifier: 'catalog:'
-        version: 3.0.5
       '@v-c/utils':
         specifier: 'catalog:'
         version: 0.0.26(typescript@5.5.4)
@@ -365,6 +362,9 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 20.17.27
+      '@types/spark-md5':
+        specifier: 'catalog:'
+        version: 3.0.5
       '@types/treeify':
         specifier: 'catalog:'
         version: 1.0.3
