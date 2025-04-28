@@ -1,3 +1,6 @@
 [submodule "cosing-plus"]
 	path = cosing-plus
 	url = git@github.com:AI-Stu/cosing-plus.git
+[submodule "cosing-plus-doc"]
+	path = cosing-plus-doc
+	url = git@github.com:AI-Stu/cosing-plus-doc.git
