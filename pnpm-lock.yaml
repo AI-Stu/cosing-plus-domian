@@ -286,6 +286,9 @@ importers:
       axios:
         specifier: 'catalog:'
         version: 1.8.4
+      chart.js:
+        specifier: ^4.4.9
+        version: 4.4.9
       crypto-js:
         specifier: 'catalog:'
         version: 4.2.0
@@ -2357,6 +2360,9 @@ packages:
   '@kirklin/logger@0.0.2':
     resolution: {integrity: sha512-CGZ9HGmHGTcGnU8CDQm7RR7hZgxLyRHTIFpS1FDCQkVaipdL/poq72ibpKqqQflomgKRCYV6GReP7ZXEZeDx1w==}
 
+  '@kurkle/color@0.3.4':
+    resolution: {integrity: sha512-M5UknZPHRu3DEDWoipU6sE8PdkZ6Z/S+v4dD+Ke8IaNlpdSQah50lz1KtcFBa2vsdOnwbbnxJwVM4wty6udA5w==}
+
   '@ljharb/resumer@0.0.1':
     resolution: {integrity: sha512-skQiAOrCfO7vRTq53cxznMpks7wS1va95UCidALlOVWqvBAzwPVErwizDwoMqNVMEn1mDq0utxZd02eIrvF1lw==}
     engines: {node: '>= 0.4'}
@@ -4180,6 +4186,10 @@ packages:
 
   charenc@0.0.2:
     resolution: {integrity: sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==}
+
+  chart.js@4.4.9:
+    resolution: {integrity: sha512-EyZ9wWKgpAU0fLJ43YAEIF8sr5F2W3LqbS40ZJyHIner2lY14ufqv2VMp69MAiZ2rpwxEUxEhIH/0U3xyRynxg==}
+    engines: {pnpm: '>=8'}
 
   check-error@1.0.3:
     resolution: {integrity: sha512-iKEoDYaRmd1mxM90a2OEfWhjsjPpYPuQ+lMYsoxB126+t8fw7ySEO48nmDg5COTjxDI65/Y2OWpeEHk3ZOe8zg==}
@@ -10962,6 +10972,8 @@ snapshots:
 
   '@kirklin/logger@0.0.2': {}
 
+  '@kurkle/color@0.3.4': {}
+
   '@ljharb/resumer@0.0.1':
     dependencies:
       '@ljharb/through': 2.3.14
@@ -13973,6 +13985,10 @@ snapshots:
   character-reference-invalid@1.1.4: {}
 
   charenc@0.0.2: {}
+
+  chart.js@4.4.9:
+    dependencies:
+      '@kurkle/color': 0.3.4
 
   check-error@1.0.3:
     dependencies:
